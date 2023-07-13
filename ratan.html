@@ -1,0 +1,520 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="html code generator, background music, myspace song music codes, free code, player, audio, video, hide controls, code, sounds">
+<meta name="Description" content="Create web pages quickly with this HTML code generator.">
+<link rel="canonical" href="https://www.quackit.com/html/html_generators/html_code_generator.cfm">
+<title>HTML Code Generator</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="shortcut icon" href="https://www.quackit.com/pix/favicon96.png">
+<link rel="apple-touch-icon" href="https://www.quackit.com/pix/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="/common/css/master.43.min.css" rel="stylesheet">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q3H025ZKLN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q3H025ZKLN');
+</script>
+</head>
+<body>
+<header class="site-header">
+<div class="site-header-base">
+<div class="site-logo">
+<a title="Quackit Homepage" target="_top" href="https://www.quackit.com/"><img src="/pix/quackit_logo_watermark.png" width="87" height="33" alt="Quackit Logo"></a>
+</div>
+<button id="site-nav-toggler" class="site-nav-toggler" aria-expanded="false" aria-controls="site-nav">
+<span class="sr-only">Toggle navigation</span>
+&#9776;
+</button>
+</div>
+<nav id="site-nav" class="site-nav">
+<div class="site-links">
+<ul>
+<li><a href="https://www.quackit.com"><i class="fa fa-home"></i> <span class="sr-only">Home</span></a></li>
+<li><a href="https://www.quackit.com/html/">HTML</a></li>
+<li><a href="https://www.quackit.com/css/">CSS</a></li>
+<li><a href="https://www.quackit.com/scripting/">Scripting</a></li>
+<li><a href="https://www.quackit.com/database/">Database</a></li>
+</ul>
+</div>
+<div class="site-search-top">
+<form action="/search/" id="cse-search-box-bottom" class="site-search">
+<div>
+<input type="hidden" name="cx" value="partner-pub-6331358926293806:98x0fk-bbgi">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input type="text" name="q" size="20" class="site-search-input">
+<button type="submit" name="sa" class="site-search-button"><i class="fa fa-search"></i></button>
+</div>
+</form>
+</div>
+</nav>
+</header>
+<div class="main">
+<article class="content">
+<h1 class="page-title">HTML Code Generator</h1>
+<div class="ad ad-top">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle responsive-top" style="display:block" data-ad-client="ca-pub-6331358926293806" data-ad-slot="2095624553" data-ad-format="auto"></ins>
+<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+</div>
+<ul class="pager">
+<li><a href="https://www.quackit.com/html/online-html-editor/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Online Editor</a></li>
+<li><a href="https://www.quackit.com/html/html_table_generator.cfm">Table Generator <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
+</ul>
+<script>
+function generateCode(form){
+
+//Header
+title = document.inputForm.title.value;
+metaDescription = document.inputForm.metaDescription.value;
+metaKeywords = document.inputForm.metaKeywords.value;
+
+//Background
+backgroundcolor = document.inputForm.backgroundcolor.value;
+backgroundimage = document.inputForm.backgroundimage.value;
+backgroundrepeat = document.inputForm.backgroundrepeat.value;
+backgroundposition = document.inputForm.backgroundposition.value;
+backgroundattachment = document.inputForm.backgroundattachment.value;
+
+//Heading
+headingtext = document.inputForm.headingtext.value;
+headingfontfamily = document.inputForm.headingfontfamily.options[document.inputForm.headingfontfamily.selectedIndex].value;
+headingsize = document.inputForm.headingsize.options[document.inputForm.headingsize.selectedIndex].value;
+headingfontvariant = document.inputForm.headingfontvariant.checked;
+headingletterspacing = document.inputForm.headingletterspacing.value;
+headingalign = document.inputForm.headingalign.value;
+headingcolor = document.inputForm.headingcolor.value;
+headingbackgroundcolor = document.inputForm.headingbackgroundcolor.value;
+
+//Text
+textbody = document.inputForm.textbody.value;
+textbody = textbody.replace(/\n/g, '</p>\n<p>');
+fontfamily = document.inputForm.fontfamily.options[document.inputForm.fontfamily.selectedIndex].value;
+fontsize = document.inputForm.fontsize.options[document.inputForm.fontsize.selectedIndex].value;
+fontstyle = document.inputForm.fontstyle.checked;
+fontweight = document.inputForm.fontweight.checked;
+fontvariant = document.inputForm.fontvariant.checked;
+letterspacing = document.inputForm.letterspacing.value;
+lineheight = document.inputForm.lineheight.value;
+textindent = document.inputForm.textindent.value;
+textalign = document.inputForm.textalign.value;
+fontcolor = document.inputForm.fontcolor.value;
+textbackgroundcolor = document.inputForm.textbackgroundcolor.value;
+
+output =
+'<!DOCTYPE html>\n' +
+'<html>\n' +
+'<head>\n' +
+'<!-- HTML Codes by Quackit.com -->\n' +
+'<title>\n' +
+((title) ? '' + title : '') +
+'</title>\n' +
+'<meta name="viewport" content="width=device-width, initial-scale=1">\n' +
+((metaKeywords) ? '<meta name="keywords" content="' + metaKeywords + '">\n' : '') +
+((metaDescription) ? '<meta name="description" content="' + metaDescription + '">\n' : '') +
+'<style>\n' +
+'body {' +
+((backgroundcolor) ? 'background-color:' + backgroundcolor + ';' : '') +
+((backgroundimage) ? 'background-image:url(' + backgroundimage + ');' : '') +
+((backgroundrepeat) ? 'background-repeat:' + backgroundrepeat + ';' : '') +
+((backgroundposition) ? 'background-position:' + backgroundposition + ';' : '') +
+((backgroundattachment) ? 'background-attachment:' + backgroundattachment + ';' : '') +
+'}\n' +
+
+headingsize + '{' +
+((headingalign) ? 'text-align:' + headingalign + ';' : '') +
+((headingfontfamily) ? 'font-family:' + headingfontfamily + ';' : '') +
+((headingfontvariant) ? 'font-variant:small-caps;' : '') +
+((headingletterspacing) ? 'letter-spacing:' + headingletterspacing + 'px;' : '') +
+((headingcolor) ? 'color:' + headingcolor + ';' : '') +
+((headingbackgroundcolor) ? 'background-color:' + headingbackgroundcolor + ';' : '') +
+'}\n' +
+
+
+'p {' +
+((textalign) ? 'text-align:' + textalign + ';' : '') +
+((fontfamily) ? 'font-family:' + fontfamily + ';' : '') +
+((fontsize) ? 'font-size:' + fontsize + ';' : '') +
+((fontstyle) ? 'font-style:italic' + ';' : 'font-style:normal;') +
+((fontweight) ? 'font-weight:bold' + ';' : 'font-weight:normal;') +
+((fontvariant) ? 'font-variant:small-caps;' : '') +
+((letterspacing) ? 'letter-spacing:' + letterspacing + 'px;' : '') +
+((lineheight) ? 'line-height:' + lineheight + 'px;' : '') +
+((textindent) ? 'text-indent:' + textindent + 'px;' : '') +
+((fontcolor) ? 'color:' + fontcolor + ';' : '') +
+((textbackgroundcolor) ? 'background-color:' + textbackgroundcolor + ';' : '') +
+'}\n' +
+'</style>\n' +
+'</head>\n' +
+'<body>\n' +
+
+'<' + headingsize + '>' +
+headingtext +
+'</' + headingsize + '>\n' +
+
+'<p>' +
+textbody +
+'</p>\n' +
+
+'' +
+'</body>\n' +
+'</html>\n';
+
+document.inputForm.source.value = output;
+
+return output;
+}
+
+function preview() {
+var htmlCode;
+htmlCode = generateCode();
+htmlCode = htmlCode.replace(/#/g,"%23");
+targetURL = "https://www.quackit.com/preview/preview.cfm?htmlCode=" + htmlCode;
+window.open(targetURL, "newWindow", "width=500,height=400,top=100,left=100,toolbar=no,menubar=no,location=no,scrollbars=yes");
+}
+
+
+</script>
+<form name="inputForm" id="inputForm" onchange="generateCode();">
+<div class="codeGenerator">
+<fieldset>
+<legend>
+<h2>Title &amp; Meta</h2>
+</legend>
+<div id="meta">
+<label for="title" title="Title appears in the browser title bar">Title of the web page:</label>
+<input class="lg" name="title" type="text" maxlength="100" placeholder="Title appears in the browser's title bar, search results, etc">
+<label for="metaDescription" title="Description can appear in search engines' search results pages">Description of page content:</label>
+<textarea name="metaDescription" id="metaDescription" placeholder="Make it nice and short, but descriptive. The description may appear in search engines' search results pages..."></textarea>
+<label for="metaKeywords" title="Keywords may assist in search results">Keywords related to page content:</label>
+<textarea name="metaKeywords" id="metaKeywords" placeholder="Separate keywords or phrases with a comma (example: html code generator, generate html, ...)"></textarea>
+</div>
+</fieldset>
+<fieldset>
+<legend>
+<h2>Heading</h2>
+</legend>
+<div id="heading">
+<input class="lg" name="headingtext" type="text" size="50" maxlength="255" placeholder="Heading goes here...">
+<label for="headingsize">Heading Level:
+<select name="headingsize" id="headingsize" style="height:20px;">
+<option value="h1"> Heading 1
+<option value="h2"> Heading 2
+<option value="h3"> Heading 3
+<option value="h4"> Heading 4
+<option value="h5"> Heading 5
+<option value="h6"> Heading 6
+</select>
+</label>
+<label for="headingfontfamily">Font Family:
+<select name="headingfontfamily" id="headingfontfamily">
+<option value="Arial, sans-serif" style="font-family:arial" selected="selected"> Arial
+<option value="Helvetica, sans-serif" style="font-family:helvetica"> Helvetica
+<option value="Impact, sans-serif" style="font-family:Impact"> Impact
+<option value="Verdana, sans-serif" style="font-family:verdana"> Verdana
+<option value="Times, serif" style="font-family:times roman"> Times Roman
+<option value="Georgia, serif" style="font-family:georgia"> Georgia
+<option value="Garamond, serif" style="font-family:garamond"> Garamond
+<option value="Cursive" style="font-family:cursive"> Cursive
+</select>
+</label>
+<label for="headingfontvariant">Font Variant:
+<input name="headingfontvariant" id="headingfontvariant" type="checkbox" value="small-caps"> <span style="font-variant:small-caps">Small Caps</span>
+</label>
+<label for="headingletterspacing">Letter Spacing:
+<input type="text" name="headingletterspacing" id="headingletterspacing" size="3" maxlength="3"> pixels
+</label>
+<label for="headingalign">Alignment:
+<select name="headingalign" id="headingalign">
+<option value> Default
+<option value="left"> Left
+<option value="center"> Center
+<option value="right"> Right
+<option value="justify"> Justified
+</select>
+</label>
+<label for="headingcolor">Heading Color:
+<input type="color" name="headingcolor" id="headingcolor" value="#000000">
+</label>
+<label for="headingbackgroundcolor">Heading Background Color:
+<input type="color" name="headingbackgroundcolor" id="headingbackgroundcolor" value="#FFFFFF">
+</label>
+</div>
+</fieldset>
+<fieldset>
+<legend>
+<h2>Paragraph</h2>
+</legend>
+<div id="paragraph">
+<textarea class="paragraph" name="textbody" placeholder="Enter your paragraph text here..."></textarea>
+<label for="fontfamily">Font Family:
+<select name="fontfamily" id="fontfamily">
+<option value="Arial, sans-serif" style="font-family:arial"> Arial
+<option value="Helvetica, sans-serif" style="font-family:helvetica"> Helvetica
+<option value="Verdana, sans-serif" style="font-family:verdana"> Verdana
+<option value="Times, serif" style="font-family:times roman"> Times Roman
+<option value="Georgia, serif" style="font-family:georgia" selected="selected"> Georgia
+<option value="Garamond, serif" style="font-family:garamond"> Garamond
+<option value="Cursive" style="font-family:cursive"> Cursive
+</select>
+</label>
+<label for="fontsize">Font Size:
+<select name="fontsize" id="fontsize" style="height:20px;">
+<option value="8px" style="font-size:8px"> 8px
+<option value="9px" style="font-size:9px"> 9px
+<option value="10px" style="font-size:10px"> 10px
+<option value="12px" style="font-size:12px"> 12px
+<option value="14px" style="font-size:14px" selected="selected"> 14px
+<option value="16px" style="font-size:16px"> 16px
+<option value="18px" style="font-size:18px"> 18px
+<option value="22px" style="font-size:22px"> 22px
+<option value="48px" style="font-size:48px"> 48px
+</select>
+</label>
+<label for="fontcolor">Text Color:
+<input type="color" name="fontcolor" id="fontcolor" value="#000000">
+</label>
+<label for="textbackgroundcolor">Text Background Color:
+<input type="color" name="textbackgroundcolor" id="textbackgroundcolor" value="#FFFFFF">
+</label>
+<label for="fontstyle">Text Style &amp; Weight:
+<input name="fontstyle" id="fontstyle" type="checkbox" value="italic"> <span style="font-style: italic">Italic</span>
+<input name="fontweight" type="checkbox" value="bold"> <span style="font-weight:bold">Bold</span>
+</label>
+<label for="fontvariant">Font Variant:
+<input name="fontvariant" id="fontvariant" type="checkbox" value="small-caps"> <span style="font-variant:small-caps">Small Caps</span>
+</label>
+<label for="letterspacing">Letter Spacing:
+<input type="text" name="letterspacing" id="letterspacing" size="3" maxlength="3"> pixels
+</label>
+<label for="lineheight">Line Height:
+<input type="text" name="lineheight" id="lineheight" size="3" maxlength="3"> pixels
+</label>
+<label for="textindent">Text Indent:
+<input type="text" name="textindent" id="textindent" size="3" maxlength="3"> pixels
+(indents the first line)
+</label>
+<label for="textalign">Text Alignment:
+<select name="textalign" id="textalign">
+<option value> Default
+<option value="left"> Left
+<option value="center"> Center
+<option value="right"> Right
+<option value="justify"> Justified
+</select>
+</label>
+</div>
+</fieldset>
+<fieldset>
+<legend>
+<h2>Background</h2>
+</legend>
+<div id="background">
+<label for="backgroundimage" title="(eg. http://www.example.com/image.png)">Background Image:
+<input type="text" name="backgroundimage" id="backgroundimage" maxlength="250" size="30" placeholder="http://">
+</label>
+<label for="backgroundrepeat">Background Image Repeating/Tiling:
+<select name="backgroundrepeat" id="backgroundrepeat">
+<option value="no-repeat"> No Repeat
+<option value="repeat"> Repeat Horizontally &amp; Vertically
+<option value="repeat-x"> Repeat Horizontally
+<option value="repeat-y"> Repeat Vertically
+</select>
+</label>
+<label for="backgroundposition">Background Image Starting Position:
+<select name="backgroundposition" id="backgroundposition">
+<option value="top left"> Top Left
+<option value="top center"> Top Center
+<option value="top right"> Top Right
+<option value="center left"> Center Left
+<option value="center center"> Center Center
+<option value="center right"> Center Right
+<option value="bottom left"> Bottom Left
+<option value="bottom center"> Bottom Center
+<option value="bottom right"> Bottom Right
+</select>
+</label>
+<label for="backgroundattachment">Background Image Scrolling:
+<select name="backgroundattachment" id="backgroundattachment">
+<option value="fixed"> Fixed (doesn't scroll with window)
+<option value="scroll"> Scroll
+</select>
+</label>
+<label for="backgroundattachment">Background Color:
+<input type="color" name="backgroundcolor" value="#ffffff">
+</label>
+</div>
+</fieldset>
+<fieldset>
+<legend><h2>Generated HTML Code</h2></legend>
+<div>
+<p>Here's the HTML code that was generated.</p>
+<textarea name="source" class="generatedCode" onclick="this.focus();this.select()"></textarea>
+</div>
+<button class="btn btn-default" onclick="preview();return false;">Preview</button>
+</fieldset>
+</div>
+</form>
+<p>Use this HTML code generator to create a basic web page. To create a web page:</p>
+<ol>
+<li>Select the values you need. The code will automatically be generated as you update the values.</li>
+<li>Copy and paste the code from the <samp>Generated HTML Code</samp> section into a text file.</li>
+<li>Save it with a <samp>.html</samp> extension (or other format if required).</li>
+</ol>
+<h2>Need More Control?</h2>
+<p>The above HTML generator is mainly used for putting together basic web pages with a heading and paragraph text.</p>
+<p>If you need more features &mdash; such as the ability to create lists, tables, format only portions of the text, etc &mdash; check out the following.</p>
+<div class="cards">
+<article class="card card-unbordered">
+<a class="wrapper" href="/html/html_table_generator.cfm">
+<img src="/pix/stock/html_table_generator.png" alt="Table generator thumbnail">
+<div class="card-body">
+<h2>Table Generator</h2>
+</div>
+</a>
+</article>
+<article class="card card-unbordered">
+<a class="wrapper" href="/html/online-html-editor/">
+<img src="/pix/stock/editor_500x200_1.png" alt="Editor thumbnail">
+<div class="card-body">
+<h2>Online HTML Editor</h2>
+</div>
+</a>
+</article>
+<article class="card card-unbordered">
+<a class="wrapper" href="/html/html_generators/html_text_box_generator.cfm">
+<img src="/pix/html/codes/text_box_generator.png" alt="Textbox thumbnail">
+<div class="card-body">
+<h2>Text Box Generator</h2>
+</div>
+</a>
+</article>
+</div>
+<ul class="pager">
+<li><a href="https://www.quackit.com/html/online-html-editor/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i> Online Editor</a></li>
+<li><a href="https://www.quackit.com/html/html_table_generator.cfm">Table Generator <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></li>
+</ul>
+<div class="ad ad-bottom">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle responsive-bottom" style="display:block" data-ad-client="ca-pub-6331358926293806" data-ad-slot="4873379751" data-ad-format="auto"></ins>
+<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+</div>
+</article>
+<div class="sidebar">
+<div class="relatedLinks">
+<h4>Related</h4>
+<ul>
+<li><a href="/html/online-html-editor/" title="Free online WYSIWYG editor">Online HTML Editor</a></li> <li><a href="/html/html_generators/" title>More HTML Generators</a></li> <li><a href="/html/tutorial/" title="Free HTML Tutorial">HTML Tutorial</a></li> <li><a href="/html/codes/" title>HTML Codes</a></li>
+</ul>
+</div>
+<nav>
+<ul>
+<li>
+<h3><a href="https://www.quackit.com/html/html_generators/">HTML Generators</a></h3>
+<ul>
+<li><a href="/html/html_generators/html_code_generator.cfm">HTML Code Generator</a></li>
+<li><a href="/html/html_table_generator.cfm">HTML Table Generator</a></li>
+<li><a href="/html/html_generators/html_marquee_generator.cfm">Marquee Generator</a></li>
+<li><a href="/html/html_generators/music_code_generator.cfm">Music Code Generator</a></li>
+<li><a href="/html/html_generators/html_text_generator.cfm">HTML Text Generator</a></li>
+<li><a href="/html/html_generators/dummy_text_generator.cfm">Dummy Text Generator</a></li>
+<li><a href="/html/html_generators/html_text_box_generator.cfm">Text Box Generator</a></li>
+</ul>
+</li>
+<li>
+<h3><a href="https://www.quackit.com/html/html_editors/">HTML Editors</a></h3>
+<ul>
+<li><a href="/html/online-html-editor/">Online HTML Editor</a></li>
+<li><a href="/html/online-html-editor/full/">Full HTML Editor</a></li>
+<li><a href="/html/html_editors/ck_editor_standard.cfm">CK Editor - Standard</a></li>
+<li><a href="/html/html_editors/ck_editor_classic.cfm">CK Editor - Classic</a></li>
+<li><a href="/html/html_editors/tinymce_editor.cfm">TinyMCE Editor</a></li>
+<li><a href="/html/html_editors/scratchpad/">HTML Scratchpad</a></li>
+<li><a href="/html/html_editors/table_editor.cfm">Table Editor</a></li>
+</ul>
+</li>
+<li>
+<h3><a href="https://www.quackit.com/html/">HTML Reference</a></h3>
+<ul>
+<li><a href="https://www.quackit.com/html/tags/" title="Alphabetical list of all HTML tags">HTML Tags</a></li>
+<li><a href="https://www.quackit.com/html/codes/" title>HTML Codes</a></li>
+<li><a href="https://www.quackit.com/html/templates/" title>HTML Templates</a></li>
+<li><a href="https://www.quackit.com/html/html_editors/">HTML Editors</a></li>
+<li><a href="https://www.quackit.com/html/tutorial/" title>HTML Tutorial</a></li>
+<li><a href="https://www.quackit.com/create-a-website/" title>Create a Website</a></li>
+<li><a href="/character_sets/">Character Set Reference</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+<div class="ad ad-left">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6331358926293806" data-ad-slot="7187717753" data-ad-format="auto"></ins>
+<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+</div>
+</div>
+<div class="ads">
+<div class="ad ad-right">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6331358926293806" data-ad-slot="9157690018" data-ad-format="auto"></ins>
+<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+</div>
+</div>
+</div>
+<div class="searchbox-bottom">
+<form action="/search/" id="cse-search-box-bottom" class="site-search">
+<div>
+<input type="hidden" name="cx" value="partner-pub-6331358926293806:npmuvy-i8kk">
+<input type="hidden" name="cof" value="FORID:10">
+<input type="hidden" name="ie" value="ISO-8859-1">
+<input type="text" name="q" size="30" class="site-search-input">
+<button type="submit" name="sa" class="site-search-button"><i class="fa fa-search"></i></button>
+</div>
+</form>
+<script src="//cse.google.com/cse/brand?form=cse-search-box-bottom&amp;lang=en"></script>
+</div>
+<footer>
+<p class="about"><a href="/"><i class="fa fa-home"></i> Home</a> | <a href="/about.cfm" rel="nofollow">About</a> | <a href="/contact.cfm" rel="nofollow">Contact</a> | <a href="/terms_of_use.cfm" rel="nofollow">Terms&nbsp;of&nbsp;Use</a> | <a href="/privacy_policy.cfm" rel="nofollow">Privacy&nbsp;Policy</a></p>
+<p>&#169; Copyright 2000 - 2023 Quackit.com &nbsp;</p>
+</footer>
+<script src="/common/js/spectrum/spectrum.js"></script>
+<script src="/common/js/lightbox2-master/dist/js/lightbox.min.js" charset="utf-8"></script>
+<script>
+        $(document).ready(function(){
+
+          $( "#site-nav-toggler" ).click(function() {
+
+            $( "#site-nav" ).toggle( "slow" );
+
+          });
+
+        });
+        </script>
+<script>
+            $(function(){var a=window.location.href;$(".sidebar nav a").each(function(){a==this.href&&$(this).closest("li").addClass("selected")})});
+        
+            
+        </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v2cb3a2ab87c5498db5ce7e6608cf55231689030342039" integrity="sha512-DI3rPuZDcpH/mSGyN22erN5QFnhl760f50/te7FTIYxodEF8jJnSFnfnmG/c+osmIQemvUrnBtxnMpNdzvx1/g==" data-cf-beacon='{"rayId":"7e61f5b2cdcbbb7d","version":"2023.4.0","r":1,"token":"f95a87206c5140fb90f2612ffd79569d","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
